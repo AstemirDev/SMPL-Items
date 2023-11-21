@@ -1,0 +1,6 @@
+{
+  "whitelist":{
+    "aliases": ["wl"],
+    "error-message": "Используйте /easywl"
+  }
+}

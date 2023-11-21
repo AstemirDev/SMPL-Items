@@ -1,10 +1,39 @@
-name: SMPLItems
+name: UniblendCore
 version: '${project.version}'
-main: org.astemir.smpl.SMPLItems
+main: org.astemir.uniblend.UniblendCorePlugin
 api-version: 1.18
-authors: [ Astemir ]
-description: New items for server.
+authors: [Astemir]
+description: Uniblend core plugin
+depend: [ModelEngine]
+softdepend: [ItemsAdder]
 commands:
-  itemgive:
+  uclock:
+    aliases: []
+  ureload:
+    aliases: [ur]
     permission: op
     permission-message: "§cYou dont have permission to do this."
+  uitem:
+    aliases: [ui]
+    permission: op
+    permission-message: "§cYou dont have permission to do this."
+  uteam:
+    aliases: [ut]
+    permission: op
+    permission-message: "§cYou dont have permission to use this command."
+  uicon:
+    aliases: [uic]
+    permission: op
+    permission-message: "§cYou dont have permission to use this command."
+  ugui:
+    aliases: [ug]
+    permission: op
+    permission-message: "§cYou dont have permission to use this command."
+  uentity:
+    aliases: [ue]
+    permission: op
+    permission-message: "§cYou dont have permission to use this command."
+  uparticle:
+      aliases: [ up ]
+      permission: op
+      permission-message: "§cYou dont have permission to use this command."

@@ -1,0 +1,27 @@
+{
+  "blood_pact": {
+    "class": "blood_pact",
+    "sound": "uniblend.items.bloodmourner",
+    "size": [0.25,0.25],
+    "life": 40,
+    "velocity-delta": 0.25,
+    "speed-factor": 0.35,
+    "damage": 10,
+    "block-transform-chance": 10,
+    "homing-radius": 8,
+    "ignore-liquids": true,
+    "ignore-passable-blocks": true,
+    "ignore-blocks": false,
+    "self-effect": {"effect": "regeneration", "duration": 80, "amplifier": 1, "is-ambient": false, "show-particles": false, "has-icon": false},
+    "model-stack-0": {"material": "netherite_sword", "custom-model-data": 1450051},
+    "model-stack-1": {"material": "netherite_sword", "custom-model-data": 1450052},
+    "particle": {
+      "type": "falling_dust",
+      "block": "purple_carpet",
+      "size": [0.1,0.1,0.1],
+      "count": 1,
+      "random-speed": true,
+      "render-far": true
+    }
+  }
+}

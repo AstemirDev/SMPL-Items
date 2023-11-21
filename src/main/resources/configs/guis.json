@@ -1,0 +1,63 @@
+{
+  "incrusting_table": {
+    "class": "incrusting_table",
+    "title": ["\uF809","§f\uF804","\uF808",{"translate":"ui.uniblend.incrusting_table","fallback":"Incrusting Table"}],
+    "dimension": "3x9",
+    "success-chance-text": {"text":"Шанс инкрустации","color":"red"},
+    "item-slot": {
+      "class": "slot",
+      "accessible": true,
+      "index": 3
+    },
+    "gem-slot": {
+      "class": "slot",
+      "accessible": true,
+      "index": 21
+    },
+    "result-slot": {
+      "class": "incrust_result_slot",
+      "index": 15
+    },
+    "incrust-button": {
+      "class": "incrust_button",
+      "index": 17,
+      "click-sound": {"sound": "ui.button.click","volume":1.0,"pitch":1.0},
+      "success-sound": {"sound": "block.anvil.use","volume":1.0,"pitch":"1.9-2"},
+      "fail-sound": {"sound": "block.anvil.destroy","volume":1.0,"pitch":"1.9-2"}
+    }
+  },
+  "tinker_table": {
+    "class": "tinker_table",
+    "title": ["\uF809","§f\uF802","\uF808",{"translate":"ui.uniblend.tinker_table","fallback":"Tinker Table"}],
+    "dimension": "3x9",
+    "crafting-slots": [
+      {"class":"slot","index":3, "accessible": true},
+      {"class":"slot","index":21,"accessible": true}
+    ],
+    "result-slot": {"class":"slot_result","index": 15},
+    "recipes": ["test","test2"]
+  },
+  "item_menu": {
+    "class": "item_menu",
+    "title": ["\uF809","§f\uF803","\uF808",{"translate":"ui.uniblend.item_menu","fallback":"Item Menu"}],
+    "dimension": "4x9",
+    "previous-page": {
+      "class":"slot_prev_page",
+      "index": 27,
+      "item": {
+        "material": "paper",
+        "name": {"translate": "ui.uniblend.previous_page"},
+        "custom-model-data": 2
+      }
+    },
+    "next-page": {
+      "class":"slot_next_page",
+      "index": 35,
+      "item": {
+        "material": "paper",
+        "name": {"translate": "ui.uniblend.next_page"},
+        "custom-model-data": 1
+      }
+    }
+  }
+}

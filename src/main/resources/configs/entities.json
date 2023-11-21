@@ -1,0 +1,40 @@
+{
+  "dragon_guardian":{
+    "class": "dragon_guardian",
+    "type": "zombified_piglin",
+    "natural-despawn": false,
+    "health": 500,
+    "armor": 10,
+    "knockback-resistance": 1,
+    "attack-damage": 10,
+    "beam-damage": 4,
+    "dash-damage": 10,
+    "attack-knockback": 1,
+    "wander-radius": 10,
+    "controller":{ "name": "actionController","actions":{ "wander": 200, "roll": 100, "dashing": 200}},
+    "bossbar":{ "text": {"translate":"entity.uniblend.dragon_guardian","fallback":"Dragon's Guardian"}, "value": 1.0, "color": "green", "style": "notched_6" },
+    "shoot-sound":{ "sound": "entity.blaze.shoot", "volume": 0.3, "pitch": "1.5-1.75"},
+    "hurt-sound":{ "sound": "uniblend.entity.dragon_guardian.hurt","volume": 1, "pitch": "0.8-1.15"},
+    "death-sound":{"sound": "uniblend.entity.dragon_guardian.death","volume": 1,"pitch": 1},
+    "dash-sound":{ "sound": "uniblend.entity.dragon_guardian.dash","volume": 2, "pitch": "0.8-1.15"}
+  },
+
+  "hoglibor": {
+    "class": "hoglibor",
+    "type": "zombified_piglin",
+    "natural-despawn": false,
+    "health": 200,
+    "armor": 10,
+    "knockback-resistance": 0.75,
+    "attack-damage": 4,
+    "attack-knockback": 0.75,
+    "bossbar":{ "text": {"translate":"entity.uniblend.hoglibor","fallback":"Hoglibor"}, "value": 1.0, "color": "red", "style": "progress" },
+    "controller":{"name": "actionController","actions":{ "attack": 15, "attack_strong": 20, "attack_jump": 60, "attack_dash": 24}},
+    "drops": [{"chance": 100, "item":{"material": "porkchop","amount": 32}}],
+    "explode-sound":{"sound": "ENTITY_GENERIC_EXPLODE", "volume": 1, "pitch": "0.5-0.6"},
+    "jump-sound":{"sound": "ENTITY_PIGLIN_ANGRY","volume": 1, "pitch": "0.5"},
+    "ambient-sound":{"sound": "ENTITY_PIGLIN_AMBIENT","volume": 1,"pitch": "0.5-0.75"},
+    "hurt-sound":{"sound": "ENTITY_PIGLIN_HURT","volume": 1,"pitch": "0.5-0.75"},
+    "death-sound":{"sound": "ENTITY_PIGLIN_DEATH","volume": 1,"pitch": "0.5-0.75"}
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "success-sound": {"sound": "entity.experience_orb.pickup","pitch": 2, "volume": 1},
+  "failed-sound": {"sound": "block.note_block.pling","pitch": 0.5, "volume": 1},
+  "unicode": {
+    "bar-center-empty": "\uF800",
+    "bar-center-fish-left": "\uF801",
+    "bar-center-fish-right": "\uF802",
+    "bar-left-empty": "\uF803",
+    "bar-left-fish-left": "\uF804",
+    "bar-left-fish-right": "\uF805",
+    "bar-right-empty": "\uF806",
+    "bar-right-fish-left": "\uF807",
+    "bar-right-fish-right": "\uF808",
+    "bar-green-center-empty": "\uF809",
+    "bar-green-center-fish-left": "\uF810",
+    "bar-green-center-fish-right": "\uF811",
+    "empty": "\uF812"
+  },
+  "messages": {
+    "fishing-hint": "§aВытаскивайте рыбу, когда её значок окажется на метке.",
+    "fishing-success": "§aВы поймали рыбу!",
+    "fishing-failure": "§cРыба сорвалась."
+  },
+  "loots": {
+    "cod": 0.125,
+    "salmon": 0.143,
+    "tropical_fish": 0.167,
+    "pufferfish": 0.2,
+    "enchanted_book": 1,
+    "bow": 1,
+    "bamboo": 0.25,
+    "fishing_rod": 1,
+    "saddle": 0.333,
+    "nautilus_shell": 0.333,
+    "name_tag": 0.333,
+    "lily_pad": 0.143,
+    "bowl": 0.143,
+    "leather": 0.143,
+    "rotten_flesh": 0.143,
+    "stick": 0.143,
+    "string": 0.143,
+    "potion": 0.143,
+    "bone": 0.143,
+    "ink_sac": 0.143,
+    "tripwire_hook": 0.143,
+    "leather_boots": 0.143,
+    "old_looking_boots": {
+      "fish-power": 0.4,
+      "chance": 1,
+      "item": {
+        "material": "leather_boots",
+        "name": "Old Looki'n Boots",
+        "enchantments": [{"enchantment":"feather_falling","lvl":1}]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "flame": {
+    "speed": "0.075-0.1",
+    "life-time": "5-10",
+    "count": "5-10",
+    "size": "0.5-1",
+    "squash": "0",
+    "direction": [0,1,0],
+    "volume": [0.5,0.5,0.5],
+    "color": ["red","yellow","orange"],
+    "rate": 1,
+    "custom-model-data": 1000,
+    "rotation-speed": 90,
+    "fixed-position": false
+  }
+}

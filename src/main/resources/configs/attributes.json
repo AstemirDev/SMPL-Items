@@ -1,0 +1,10 @@
+{
+  "test": {
+    "attribute": "generic_max_health",
+    "bonus-name": "test0",
+    "amount": 2.0,
+    "slot": "head",
+    "operation": "add_number",
+    "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+  }
+}

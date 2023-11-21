@@ -1,0 +1,17 @@
+{
+  "test":{
+    "class": "fixed",
+    "components": [
+      {"index": 0,"item": "golden_axe","vanilla": true},
+      {"index": 1,"item": {"material": "magma_block"},"amount": 8,"vanilla": true}
+    ],
+    "result": "blazing_hatchet"
+  },
+
+  "test2":{
+    "class": "upgrade",
+    "upgradable-component": {"index": 0,"item": "netherite_sword","amount":1,"vanilla": true},
+    "upgrade-component": {"index": 1,"item": "uniblend:yurveline_ingot","amount":1,"vanilla": true},
+    "result": "uniblend:yurveline_sword"
+  }
+}

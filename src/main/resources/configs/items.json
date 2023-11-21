@@ -1,0 +1,246 @@
+{
+  "hoglibor_spawn":{
+    "class": "item_boss_spawn",
+    "material": "gold_nugget",
+    "cooldown": 40,
+    "boss": "hoglibor"
+  },
+  "cursed_watcher": {
+    "class": "cursed_watcher",
+    "material": "bow",
+    "custom-model-data": 1450106,
+    "name-color": "green",
+    "sound": "uniblend.entity.dragon_guardian.dash",
+    "segments-count": "10-20",
+    "damage": 7.25
+  },
+  "cigarette": {
+    "class": "cigarette",
+    "material": "green_dye",
+    "name": {"translate":"item.uniblend.cigarette","fallback":"Сигарета"},
+    "name-ignited": {"translate":"item.uniblend.cigarette_ignited","fallback":"Тлеющая сигарета"},
+    "name-used": {"translate":"item.uniblend.cigarette_used","fallback":"Бычок"},
+    "custom-model-data": 1450402,
+    "ignited-model-data": 1450403,
+    "used-model-data": 1450404,
+    "name-color": "#5555FF",
+    "self-effect": {"effect": "confusion","duration": 100,"amplifier": 0,"show-particles": false,"is-ambient": false},
+    "cooldown": 100
+  },
+  "bloodmourner": {
+    "class": "bloodmourner",
+    "material": "netherite_sword",
+    "custom-model-data": 1450050,
+    "attack-damage": 10,
+    "attack-speed": -2.4,
+    "first-attack-cooldown": 5,
+    "second-attack-cooldown": 80,
+    "name-color": "#ff0000",
+    "attack-sound": "uniblend.items.bloodmourner",
+    "sweep-sound": "entity_player_attack_sweep",
+    "projectile": "blood_pact"
+  },
+  "daybreaker": {
+    "class": "daybreaker",
+    "material": "netherite_sword",
+    "custom-model-data": 1450000,
+    "attack-damage": 7,
+    "attack-speed": -2.4,
+    "name-color": "#FF55FF",
+    "gold-nugget-chance": 50,
+    "gold-ingot-chance": 10,
+    "gold-nugget-max-count": 5,
+    "gold-ingot-max-count": 5
+  },
+  "wither_blade": {
+    "class": "wither_blade",
+    "material": "netherite_sword",
+    "custom-model-data": 1450001,
+    "attack-damage": 14,
+    "attack-speed": -3.4,
+    "name-color": "#FF55FF",
+    "effect-chance": 50,
+    "attack-effect": {"effect": "wither","duration": 300,"amplifier": 0,"show-particles": false,"is-ambient": false}
+  },
+  "blazing_hatchet": {
+    "class": "blazing_hatchet",
+    "material": "diamond_axe",
+    "custom-model-data": 1450002,
+    "attack-damage": 8,
+    "attack-speed": -3,
+    "name-color": "#FFAA00",
+    "ability-cooldown": 80,
+    "ability-duration": 150,
+    "ability-radius": [1.5, 1, 1.5],
+    "ability-velocity": [2, 1.25, 2]
+  },
+  "chilling_blade": {
+    "class": "chilling_blade",
+    "material": "diamond_sword",
+    "custom-model-data": 1450003,
+    "attack-damage": 6,
+    "attack-speed": -2.4,
+    "name-color": "#00FFFF",
+    "attack-effect": {"effect": "slow","duration": 160,"amplifier": 0,"show-particles": false,"is-ambient": false}
+  },
+  "sacrifice_sword": {
+    "class": "sacrifice_sword",
+    "material": "netherite_sword",
+    "custom-model-data": 1450004,
+    "attack-damage": 16,
+    "attack-speed": -3.4,
+    "name-color": "#FF55FF",
+    "attack-effect": {"effect": "harm","duration": 1,"amplifier": 1,"show-particles": false,"is-ambient": false}
+  },
+  "scarlet_dagger": {
+    "class": "scarlet_dagger",
+    "material": "netherite_sword",
+    "custom-model-data": 1450005,
+    "attack-damage": 6.5,
+    "attack-speed": -2.2,
+    "name-color": "#FF55FF",
+    "self-effect": {"effect": "regeneration","duration": 100,"amplifier": 1,"show-particles": false,"is-ambient": false},
+    "effect-chance": 50
+  },
+  "voltaic_trident": {
+    "class": "voltaic_trident",
+    "material": "trident",
+    "custom-model-data": 1450006,
+    "name-color": "#FF55FF",
+    "attack-damage": 5,
+    "explosion-power": 10,
+    "enchantments": [
+      {"enchantment": "loyalty","lvl": 3}
+    ]
+  },
+  "holy_wrath": {
+    "class": "holy_wrath",
+    "material": "crossbow",
+    "custom-model-data": 1450100,
+    "name-color": "#FF55FF",
+    "arrow-pierce": 2,
+    "explosion-power": 10
+  },
+  "firestorm": {
+    "class": "firestorm",
+    "material": "crossbow",
+    "custom-model-data": 1450101,
+    "name-color": "#FFAA00",
+    "explosion-power": 20
+  },
+  "multiplex_crossbow": {
+    "class": "multiplex_crossbow",
+    "material": "crossbow",
+    "custom-model-data": 1450102,
+    "name-color": "#5555FF",
+    "arrow-count": 3
+  },
+  "sentrys_wrath": {
+    "class": "sentrys_wrath",
+    "material": "crossbow",
+    "custom-model-data": 1450103,
+    "name-color": "#FFAA00",
+    "arrow-pierce": 120,
+    "cooldown": 40,
+    "rays-count": 5,
+    "damage": 15,
+    "final-damage": 20,
+    "explosion-power": 10,
+    "velocity-multiplier": 0.1
+  },
+  "trailblazer": {
+    "class": "trailblazer",
+    "material": "bow",
+    "custom-model-data": 1450104,
+    "name-color": "#FFAA00",
+    "explosion-power": 20,
+    "rays-count": 6,
+    "damage": 5.0,
+    "fire-ticks": 100
+  },
+  "ragnarok": {
+    "class": "ragnarok",
+    "material": "bow",
+    "custom-model-data": 1450105,
+    "name-color": "#55FFFF",
+    "segments-count": 10,
+    "lightning-chance": 50,
+    "cooldown": 200,
+    "damage": 5.0
+  },
+  "withersbane": {
+    "class": "withersbane",
+    "material": "golden_sword",
+    "custom-model-data": 1450107,
+    "attack-damage": 6,
+    "attack-speed": -2.2,
+    "name-color": "#55FFFF",
+    "radius": [10,10,10],
+    "damage": 4,
+    "max-targets": 6,
+    "cooldown": 20
+  },
+  "infernal_wing": {
+    "class": "infernal_wing",
+    "material": "elytra",
+    "custom-model-data": 1450201,
+    "armor-defense": 4,
+    "armor-toughness": 2,
+    "armor-knockback-resistance": 1,
+    "armor-slot": "chest",
+    "name-color": "#FF55FF",
+    "velocity-multiplier": 0.99,
+    "enchantments": [
+      {"enchantment":"unbreaking","lvl": 4}
+    ]
+  },
+  "necrotic_shield": {
+    "class": "necrotic_shield",
+    "material": "shield",
+    "custom-model-data": 1450300,
+    "name-color": "#55FFFF",
+    "effect": {"effect": "wither","duration": 330,"amplifier": 0},
+    "enchantments": [
+      {"enchantment":"unbreaking","lvl":3}
+    ]
+  },
+  "prismatic_shield": {
+    "class": "prismatic_shield",
+    "material": "shield",
+    "custom-model-data": 1450301,
+    "name-color": "#FF55FF",
+    "damage-multiplier": 0.45,
+    "enchantments": [
+      {"enchantment":"unbreaking","lvl": 4}
+    ]
+  },
+  "radiation_shield": {
+    "class": "radiation_shield",
+    "material": "shield",
+    "custom-model-data": 1450302,
+    "name-color": "#55FF55",
+    "effect": {"effect": "poison","duration": 150,"amplifier": 1},
+    "enchantments": [
+      {"enchantment": "unbreaking","lvl": 3}
+    ]
+  },
+  "hefty_pickaxe": {
+    "class": "hefty_pickaxe",
+    "material": "diamond_pickaxe",
+    "custom-model-data": 1450500,
+    "attack-damage": 5,
+    "attack-speed": -2.8,
+    "name-color": "#FF55FF",
+    "area": [1,1,1],
+    "chance": 25
+  },
+  "unstable_powder": {
+    "class": "unstable_powder",
+    "material": "glowstone_dust",
+    "custom-model-data": 1450401,
+    "name-color": "#5555FF",
+    "self-effect": {"effect": "glowing","duration": 400,"amplifier": 0,"show-particles": false,"is-ambient": false},
+    "radius": [10,10,10],
+    "cooldown": 200
+  }
+}

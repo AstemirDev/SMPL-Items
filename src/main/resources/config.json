@@ -1,0 +1,15 @@
+{
+  "modules": {
+    "item-attributes": {"configurations":[{"path": "configs/attributes.json"}]},
+    "entities": {"configurations":[{"path": "configs/entities.json"}]},
+    "fishing": {"configurations":[{"path": "configs/fishing.json"}]},
+    "guis": {"configurations":[{"path": "configs/guis.json"}]},
+    "items": {"configurations":[{"path": "configs/items.json"}]},
+    "particles": {"configurations":[{"path": "configs/particles.json"}]},
+    "beta-particles": {"configurations":[{"path": "configs/beta-particles.json"}]},
+    "projectiles": {"configurations":[{"path": "configs/projectiles.json"}]},
+    "recipes": {"configurations":[{"path": "configs/recipes.json"}]},
+    "set-bonuses": {"configurations":[{"path": "configs/set-bonuses.json"}]},
+    "blocked-commands": {"configurations":[{"path": "configs/blocked-commands.json"}]}
+  }
+}
